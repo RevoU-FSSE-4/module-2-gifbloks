@@ -27,3 +27,10 @@
 - ![logo] (https://cdn-icons-png.flaticon.com/512/399/399271.png)
 - github pengumpulan tugas (https://github.com/gifbloks/module-2-yoshua)
 - netlify pengumpulan tugas (https://tugas-week-2-yoshua.netlify.app)
+
+### Tugas module 2 week 4
+
+- ![Register on Netlify Website] ![(![D:\kerjaan\software_engineering\module-2-assignment\asset\cek-1.png])](https://github.com/gifbloks/module-2-yoshua/blob/main/asset/cek-1.png)
+- ![github to netlify] (https://github.com/gifbloks/module-2-yoshua/blob/main/asset/cek-2.png)
+- ![buy .site niagahoster] (https://github.com/gifbloks/module-2-yoshua/blob/main/asset/cek-3.png)
+  terima kasih
