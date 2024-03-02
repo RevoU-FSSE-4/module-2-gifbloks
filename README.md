@@ -77,4 +77,4 @@ how to configure your domain to netlify
 2. netlify can autoupdate DNS and click done; your domain is already connect to DNS netlify
    ![5](/asset/4.4.png)
 
-my website ![1](gifbloks.site)
+my website (gifbloks.site)
