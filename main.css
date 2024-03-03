@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
   margin: 0px;
   width: 100%;
@@ -56,7 +56,7 @@ button[type="submit"]:hover{
   justify-content: space-between;
   height: 3em;
   align-items: center;
-  width: 90%;
+  width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -74,7 +74,7 @@ button[type="submit"]:hover{
   text-decoration: none;
   color: black;
   text-align: right;
-  padding-right: 1, 5em;
+  padding-right: 8em;
 }
 
 .main-mr {
@@ -85,8 +85,7 @@ button[type="submit"]:hover{
 
 .identity {
   background-color: gainsboro;
-  flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   padding-left: 5%;
   padding-right: 5%;
   margin-bottom: 1em;
@@ -102,6 +101,8 @@ button[type="submit"]:hover{
   background-position: center;
   background-size: cover;
   background-clip: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .container {
@@ -109,60 +110,61 @@ button[type="submit"]:hover{
   padding-right: 5%;
   margin-bottom: 1em;
   width: auto;
-  height: fit-content;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2,1.5fr);
   grid-template-rows: repeat(4, 1.5fr);
-  border: 1px solid gainsboro;
   border-radius: 0.5em;
   box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid gap: 5px;
 }
 
 #box1 {
   grid-column: 1;
   grid-row: 1;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 #box2 {
   grid-column: 2;
   grid-row: 1;
-  width: 250px;
-  height: 125px;
+  width: 100%;
+  height: 100%;
 }
 #box3 {
   grid-column: 1;
   grid-row: 2;
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 #box4 {
   grid-column: 2;
   grid-row: 2;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 
 #box5 {
   grid-column: 1;
   grid-row: 3;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 
 #box6 {
   grid-column: 2;
   grid-row: 3;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 
 #box7 {
   grid-column: 1/2 span ;
   grid-row: 4;
-  width: 300px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
 }
 
@@ -204,11 +206,11 @@ button[type="submit"]:hover{
   padding-bottom: 2em;
 }
 
-@media only-screen and (max-width: 360px) {
+@media only-screen and (min-width: 320px) and (max-width: 425px) {
   .main {
     background: whitesmoke;
   }
-  }
+
   .img1 {
   border: 1px solid gainsboro;
   border-radius: 0.5em;
@@ -228,234 +230,26 @@ button[type="submit"]:hover{
   justify-content: center;
   text-align: center;
   }
-=======
-* {
-  margin: 0px;
-  width: 100%;
-  font-family: "Kanit", sans-serif;
-}
 
-a {
-  text-decoration: none;
-  color: black;
-  padding: 0, 5em;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-h2 {
-  font-size: 1em;
-  text-shadow: 1px 1px 2px gray;
-}
-
-.write {
-  font-size: 1em;
-  transition-property: font-size;
-  transition-duration: 1s;
-  transition-delay: 1s;
-}
-
-.write:hover {
-  font-size: 2em;
-}
-
-button[type="submit"] {
-  color: white;
-  background-color: transparent;
-  cursor: cell;
-}
-
-button[type="submit"]:hover{
-  color: aqua;
-  background-color: orange;
-  cursor: grab;
-}
-
-.navigation {
-  color: black;
-  background-color: whitesmoke;
-  font-size: 1em;
-  border-style: dashed;
-  border-width: 1px;
-  border-color: black;
-  position: sticky;
-  z-index: 100;
-  top: 0px;
-  display: flex;
-  justify-content: space-between;
-  height: 3em;
-  align-items: center;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.navbar-logo {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.navbar-logo:hover {
-  opacity: 50%;
-}
-
-.nav1 {
-  text-decoration: none;
-  color: black;
-  text-align: right;
-  padding-right: 1, 5em;
-}
-
-.main-mr {
-  width: 75%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.identity {
-  background-color: gainsboro;
-  flex-wrap: wrap;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 1em;
-}
-
-.main {
-  background-color: gainsboro;
-  gap: 25%;
-}
-
-.sect {
-  background-image: url(/asset/white-abstract-background.jpg/image.jpg);
-  background-position: center;
-  background-size: cover;
-  background-clip: border-box;
-}
-
-.container {
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 1em;
-  width: auto;
-  height: fit-content;
-  display: grid;
-  grid-template-columns: repeat(2,1.5fr);
-  grid-template-rows: repeat(4, 1.5fr);
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-#box1 {
-  grid-column: 1;
-  grid-row: 1;
-  width: 300px;
-  height: 200px;
-}
-#box2 {
-  grid-column: 2;
-  grid-row: 1;
-  width: 250px;
-  height: 125px;
-}
-#box3 {
-  grid-column: 1;
-  grid-row: 2;
-  width: 200px;
-  height: 100px;
-}
-
-#box4 {
-  grid-column: 2;
-  grid-row: 2;
-  width: 300px;
-  height: 200px;
-}
-
-#box5 {
-  grid-column: 1;
-  grid-row: 3;
-  width: 300px;
-  height: 200px;
-}
-
-#box6 {
-  grid-column: 2;
-  grid-row: 3;
-  width: 300px;
-  height: 200px;
-}
-
-#box7 {
-  grid-column: 1/2 span ;
-  grid-row: 4;
-  width: 300px;
-  height: 350px;
-  max-width: 100%;
-}
-
-.img1 {
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-  width: 100%;
-  height: 75%;
-  justify-content: center;
-}
-
-.figcaption {
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: black;
-  font-weight: 400;
-  padding: 1em;
-  justify-content: center;
-  text-align: center;
-}
-.img2 {
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-  width: 10%;
-  height: 10%;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.footer1 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-bottom: 2em;
-}
-
-@media only-screen and (max-width: 360px) {
-  .main {
-    background: whitesmoke;
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 1em;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1.5fr);
+    grid-template-rows: repeat(4, 1.5fr);
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid gap: 5px;
   }
+  
+  .sect {
+    background-image: url(/asset/white-abstract-background.jpg/image.jpg);
+    background-position: center;
+    background-size: contain;
+    background-clip: border-box;
   }
-  .img1 {
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-  width: 100%;
-  height: 75%;
-  justify-content: center;
-  }
-
-  .figcaption {
-  border: 1px solid gainsboro;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: black;
-  font-weight: 200;
-  padding: 1em;
-  justify-content: center;
-  text-align: center;
-  }
->>>>>>> bc4b1a1839098cde03a0835607247cad54d212e7
+}
